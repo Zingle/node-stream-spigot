@@ -1,0 +1,19 @@
+{
+  "name": "@zingle/stream-spigot",
+  "version": "0.0.1",
+  "description": "redirect Readable stream into Writable buckets",
+  "main": "stream-spigot.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zingle/node-stream-spigot.git"
+  },
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zingle/node-stream-spigot/issues"
+  },
+  "homepage": "https://github.com/Zingle/node-stream-spigot#readme"
+}
