@@ -12,10 +12,10 @@ shutoff valve should be triggered.  When the shutoff valve is triggered, the
 bucket.
 
 Data that passes through the **Spigot** will be written to the bucket
-In addition, the **Spigot** class has a `.pipe(Writable)` method which can be
-used similarly to `Readable.pipe(Writable)`.  Once data starts writing to a
-bucket in this manner, each chunk is passed to the shutoff valve to determine if
-the bucket is filled yet.
+The **Spigot** class has a `.fill(Writable)` method which can be used to start
+filling a new bucket.  Once data starts writing to a bucket in this manner,
+each chunk is passed to the shutoff valve to determine if the bucket is filled
+yet.
 
 Example - Write Multiple Files
 ==============================
